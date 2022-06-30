@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_firebase/Tela/AlluserPagina.dart';
 import 'package:project_firebase/Tela/user.add.dart';
+import 'package:project_firebase/Tela/usuario.procurar.dart';
 class Controlepagina extends StatelessWidget{
   const Controlepagina({Key? key}) : super(key:key);
 
@@ -26,7 +27,7 @@ class Controlepagina extends StatelessWidget{
          children: const [
            AddUserPagina(),
            AllUsers(),
-           Center (child: Text('Página 3'),),
+           procurar(),
            Center (child: Text('Página 4'),),
          ],
        ),
